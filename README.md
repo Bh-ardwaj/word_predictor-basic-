@@ -19,47 +19,6 @@ Deep Learning Training Loops
 Text Generation Mechanisms
 
 Model Evaluation Metrics
-🧠 Problem Statement
-
-Language modeling is a foundational problem in NLP where the objective is to predict the probability distribution of the next word given previous words:
-
-𝑃
-(
-𝑤
-𝑡
-∣
-𝑤
-1
-,
-𝑤
-2
-,
-.
-.
-.
-,
-𝑤
-𝑡
-−
-1
-)
-P(w
-t
-	​
-
-∣w
-1
-	​
-
-,w
-2
-	​
-
-,...,w
-t−1
-	​
-
-)
 
 This project builds a neural model that approximates this probability distribution using LSTM networks.
 Raw Text
